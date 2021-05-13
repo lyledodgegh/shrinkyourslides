@@ -1,6 +1,6 @@
 # Shrink your PowerPoint Slides
 
-This is a copy / paste of a link I found a while back on shrinking your PowerPoint slides. When I find the original author/link I'll update here.
+This is a copy / paste of a link I found googling a while back on shrinking your PowerPoint slides. If you want to find the original person just copy/paste part of the below script and search on google with reverse date.
 
 All it does is goes through the Slide Masters and deletes unused Slide Masters. Typically this saves a ton of space. If you're really trying to optimize space, you can also unzip the pptx (i.e. treat it like a zip file), and go into ppt/media folder to see what large image files are in your slides and fix those.
 
