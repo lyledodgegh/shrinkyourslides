@@ -4,6 +4,8 @@ I put this site up because I was tired of going back to google to find the code 
 
 If you have a really big pptx, you can also unzip it, and look at the ppt/media folder for the culprit large image, etc.
 
+DO NOT run this while you're editing your PowerPoint, wait until you're ready to send it out. Otherwise you'll lose layouts you might need.
+
 ## The Macro Code
 
     Sub CleanupDesigns()
