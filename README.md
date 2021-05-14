@@ -1,24 +1,12 @@
 # Shrink your PowerPoint Slides
 
-This is a copy / paste of a link I found googling a while back on shrinking your PowerPoint slides. If you want to find the original person just copy/paste part of the below script and search on google with reverse date.
+The macro below deletes all unused layouts in the Slide Master view of a PowerPoint presentation. To use it (screenshots at the bottom) just go to view -> macros -> type something in -> create -> overwrite the macro with the code below -> click run -> close the macro editor -> click save -> say yes to a macro-free presentation dialog. Once you do it a few times, it's fast and people will appreciate sometimes __much__ smaller file sizes.
 
-All it does is goes through the Slide Masters and deletes unused Slide Masters. Typically this saves a ton of space. If you're really trying to optimize space, you can also unzip the pptx (i.e. treat it like a zip file), and go into ppt/media folder to see what large image files are in your slides and fix those.
+I put this site up because I was tired of going back to google to find the code snippet which has been out for over a decade...
 
-Steps:
+If you have a really big pptx, you can also unzip it, and look at the ppt/media folder for the culprit large image, etc.
 
-- Open your PowerPoint deck
-- Click on the toolbar View, then Macros
-- Type any Macro name in, you'll overwrite it
-- Click Create
-- Copy the text below, overwriting the content
-- Click Run
-- Close the PowerPoint deck or Save it
-- When asked if you want it to be Macro free - say YES to remove the macro
-
-## The Code
-
-
-
+## The Macro Code
 
     Sub CleanupDesigns()
         Dim I As Integer
@@ -34,6 +22,29 @@ Steps:
             Next I
         End With
     End Sub
+
+## Walkthrough Images
+
+Step 1
+
+<img src="images/01-start.png" alt-text="step 01" />
+
+Step 2
+
+<img src="images/02-create.png" alt-text="step 02" />
+
+Step 3
+
+<img src="images/03-edit.png" alt-text="step 03" />
+
+Step 4
+
+<img src="images/04-run.png" alt-text="step 04" />
+
+Step 5
+
+<img src="images/05-save-macro-free.png" alt-text="step 05" />
+
 
 
 
