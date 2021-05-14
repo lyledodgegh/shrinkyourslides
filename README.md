@@ -1,5 +1,3 @@
-# Shrink your PowerPoint Slides
-
 The macro below deletes all unused layouts in the Slide Master view of a PowerPoint presentation. To use it (screenshots at the bottom) just go to view -> macros -> type something in -> create -> overwrite the macro with the code below -> click run -> close the macro editor -> click save -> say yes to a macro-free presentation dialog. Once you do it a few times, it's fast and people will appreciate sometimes __much__ smaller file sizes.
 
 I put this site up because I was tired of going back to google to find the code snippet which has been out for over a decade...
